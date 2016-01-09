@@ -90,7 +90,7 @@ class ViewController: UIViewController {
         
     }
     @IBAction func clear(sender: UIButton) {
-        ertekek.text = "0"
+        ertekek.text = ""
         print("error occurred on line \(__LINE__) in function \(__FUNCTION__)")
     }
     @IBAction func nine(sender: UIButton) {
